@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4833a4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        android:background="@drawable/walpaper2">
+
+        <TextView
+            android:id="@+id/tvCagubo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7A49B6"
+            android:gravity="center"
+            android:text="CALON 01"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/ivcalon01"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@id/tvCagubo1"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/aldo">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvIDCalon01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivcalon01"
+            android:layout_marginTop="30dp"
+            android:text="ID : 01"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvIDCagub01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvIDCalon01"
+            android:layout_marginTop="15dp"
+            android:text="ID Cagub : 123456789"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvIDCawagub01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvIDCagub01"
+            android:layout_marginTop="15dp"
+            android:text="ID Wagub : 123456789"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvvisi01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvIDCawagub01"
+            android:layout_marginTop="15dp"
+            android:text="Visi : Terwujudnya tatanan masyarakat adil, kuat , cerdas, dan terdidik."
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvmisi01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvvisi01"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:text="Misi : Mencerdaskan kehidupan bangsa"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

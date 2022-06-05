@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/walpaper2"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CAGUB DAN CAWAGUB RIAU"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginBottom="110dp"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ivcalongub01"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:onClick="clickivcalon"
+                android:src="@drawable/aldo" />
+
+            <ImageView
+                android:id="@+id/ivcalonwagub01"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:src="@drawable/aldo" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvcagub01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CAGUB DAN CAWAGUB 01"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/ivcalongub02"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:onClick="clickRS"
+                android:src="@drawable/aldo" />
+
+            <ImageView
+                android:id="@+id/ivcalonwagub02"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:src="@drawable/aldo" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/tvcagub02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CAGUB DAN CAWAGUB 02"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
